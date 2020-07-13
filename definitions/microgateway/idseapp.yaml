@@ -1,0 +1,14 @@
+paths:
+  /id:
+    get:
+      operationId: idgenerator
+      responses:
+        '200':
+          description: 200 OK
+  /servicequalification/v1/serviceavalability:
+    post:
+      operationId: AuthUnauthFlow2_Low
+      responses:
+        '200':
+          description: 200 OK
+definitions: {}

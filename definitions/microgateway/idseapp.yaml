@@ -11,4 +11,15 @@ paths:
       responses:
         '200':
           description: 200 OK
+    get:
+      operationId: AuthUnauthFlow2_Low
+      responses:
+        '200':
+          description: 200 OK
+  /servicequalification/v1/servicetest:
+    post:
+      operationId: AuthUnauthFlow2_Low
+      responses:
+        '200':
+          description: 200 OK
 definitions: {}
